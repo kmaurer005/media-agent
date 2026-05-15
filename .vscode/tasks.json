@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Inspect Media Metadata",
+      "type": "shell",
+      "command": "./inspect.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "Preview Media Organization",
+      "type": "shell",
+      "command": "./preview.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "Preview Media Organization (Recursive)",
+      "type": "shell",
+      "command": "./preview_recursive.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "Organize Media By Date",
+      "type": "shell",
+      "command": "./organize.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "Organize Media By Date (Recursive)",
+      "type": "shell",
+      "command": "./organize_recursive.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "Cleanup Empty Folders",
+      "type": "shell",
+      "command": "./cleanup_empty.sh",
+      "problemMatcher": []
+    }
+  ]
+}
